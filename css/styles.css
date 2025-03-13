@@ -139,14 +139,14 @@ main {}
 
 section {
     height: 100%;
-    padding: 40px 40px;
+    padding: 40px 80px;
 }
 
 
 /* profile section */
 
 .profile-section {
-    padding: 10px 40px 10px;
+    padding: 10px 80px 10px;
     color: var(--text);
     background-color: var(--base);
     background: url(../images/website-background/sky1.png);
@@ -189,8 +189,8 @@ section {
 }
 
 .profile-img {
-    width: 12rem;
-    margin-top: -70px;
+    width: 5rem;
+    margin-top: -50px;
     margin-left: 40%;
 }
 
@@ -199,7 +199,7 @@ section {
 .service-section {
     background-color: var(--base);
     color: var(--text);
-    padding: 40px 20px;
+    padding: 40px 80px;
     background-image: url(../images/website-background/sky1r.png);
     background-size: cover;
     background-position: center;
@@ -212,43 +212,7 @@ section {
 }
 
 .service-header-section p {
-    padding: 0 10px;
-}
-
-.service-list-section {
-    padding: 20px 0;
-}
-
-.service-list-section h3 {
-    font-size: 25px;
-}
-
-.service-list-item {
-    padding: 10px 0;
-}
-
-.container-service {
-    display: flex;
-    align-items: center;
-    margin: 10px auto;
-    border: 3px var(--text) solid;
-    border-radius: 10px;
-    background-color: var(--cta);
-    flex-direction: column;
-    padding: 10px;
-}
-
-.container-service img {
-    height: 110px;
-    display: inline-block;
-}
-
-
-.container-service p {
-    padding: 0 20px;
-    display: inline-block;
-    font-family: 'Open Sans semi-bold', sans-serif;
-    color: var(--cta-light);
+    padding: 0 80px;
 }
 
 /* project section */
@@ -266,7 +230,7 @@ section {
 }
 
 .project-list-section {
-    padding: 20px 0;
+    padding: 20px 80px;
 }
 
 .project-list-section.active {
@@ -283,145 +247,16 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 1s ease-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .project-list-section div:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 .project-list-section img {
     border-radius: 20px;
 }
-
-/* faq section */
-
-.faq-section {
-    color: var(--text);
-    background-image: url(../images/website-background/sky1r.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.faq-header-section h2 {
-    text-align: center;
-}
-
-.faq-list-section {
-    padding: 10px 0;
-}
-
-.container-faq {
-    padding: 0;
-    margin: 0;
-}
-
-.btn-faq {
-    border: 2px var(--text) solid;
-    border-radius: 20px;
-    background-color: inherit;
-    padding: 0.75rem;
-    width: 100%;
-    text-align: left;
-    margin: 10px 0;
-    color: var(--text);
-}
-
-.btn-faq::after {
-    content: "";
-    width: 30px;
-    height: 30px;
-    background: url("../images/arrow.svg") no-repeat;
-    background-size: 1.75rem;
-    right: 1rem;
-    position: absolute;
-    display: inline-block;
-    transition: transform 1s ease-out;
-}
-
-.btn-faq:hover {
-    transform: scale(1.05);
-}
-
-.transform::after {
-    transform: rotate(180deg);
-    transition: transform 1s ease-out;
-}
-
-.container-faq-answer {
-    /* visibility: hidden; */
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1s ease-out;
-}
-
-.container-faq-answer.active {
-    /* visibility: visible; */
-    max-height: 700px;
-    transition: max-height 1s ease-in;
-}
-
-/* contactMe-section */
-
-.contactMe-section {
-    color: var(--text);
-    background-color: var(--base);
-    background-image: url(../images/website-background/sky1.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.contactMe-section h2 {
-    text-align: center;
-    padding: 15px;
-    color: var(--text);
-}
-
-.cta-section {
-    margin-bottom: 20px;
-}
-
-.cta-section button {
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 25px;
-}
-
-.cta-section img {
-    margin-bottom: 10px;
-    max-width: 5rem;
-    margin: 0 auto;
-}
-
-.email-section {
-    padding: 10px 30px;
-    background-color: white;
-    border: 2px var(--text) solid;
-    border-radius: 5px;
-}
-
-.email-section div {
-    padding: 10px 0;
-}
-
-.email-section label {
-    display: block;
-    font-weight: bold;
-}
-
-.email-section input {
-    display: block;
-    width: 100%;
-    border: 2px var(--text) solid;
-    border-radius: 5px;
-}
-
-.email-section textarea {
-    border: 2px var(--text) solid;
-    width: 100%;
-    border-radius: 5px;
-}
-
 
 /* footer section */
 
@@ -525,8 +360,8 @@ footer p {
     }
 
     .profile-img {
-        width: 475px;
-        margin: 30px auto 0;
+        width: 300px;
+        margin: 10px auto 0;
     }
 
     /* service section */
@@ -601,7 +436,7 @@ footer p {
     /* project section */
 
     .container-project {
-        max-width: 23%;
+        max-width: 15%;
         margin: auto;
     }
 
