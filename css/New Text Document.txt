@@ -1,0 +1,8 @@
+:root {
+    --main: #22318E;
+    --text: #131939;
+    --cta: #318e22;
+    --cta-light: #bbfcb0;
+    --cta-dark: #1d5314;
+    --base: #8FD0F3;
+}
